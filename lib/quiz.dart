@@ -10,38 +10,22 @@ class _QuizState extends State<Quiz> {
   int score=0;
   final quiz = [
     {
-      'title':'Question 1',
-      'answers':[
-        {
-          'answer':'Answer 11',
-          'correct':false
-        },
-        {
-          'answer':'Answer 12',
-          'correct':false
-        },
-        {
-          'answer':'Answer 13',
-          'correct':true
-        },
-      ]
+      'title': 'Q 1 - Which of the following is correct about Java 8 lambda expression ?',
+      'answers': [
+        {'answer': 'A - Using lambda expression, you can refer to final variable or effectively final variable (which is assigned only once)', 'correct': false},
+        {'answer': 'B - Lambda expression throws a compilation error, if a variable is assigned a value thesecond time ?', 'correct': false},
+        {'answer': 'C - Both of the above.', 'correct': true},
+        {'answer': 'D - None of the above.', 'correct': false},
+      ],
     },
     {
-      'title':'Question 2',
+      'title': 'Q 8 - Which of the following is the correct lambda expression which add two numbers and return their sum?',
       'answers': [
-        {
-          'answer':'Answer 21',
-          'correct':false
-        },
-        {
-          'answer':'Answer 22',
-          'correct':true
-        },
-        {
-          'answer':'Answer 23',
-          'correct':false
-        }
-      ]
+        {'answer': 'A - (int a, int b) -> { return a + b;};', 'correct': false},
+        {'answer': 'B - (a, b) -> {return a + b;};', 'correct': false},
+        {'answer': 'C - Both of the above.', 'correct': true},
+        {'answer': 'D - None of the above.', 'correct': false},
+      ],
     }
   ];
   @override
